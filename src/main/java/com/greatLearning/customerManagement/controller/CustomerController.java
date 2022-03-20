@@ -19,15 +19,14 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 
-	@RequestMapping("/index")
-	public String index() {
+	@RequestMapping("/")
+	public String getIndex() {
 
 		return "index";
 	}
 
 	// add mapping for "/list"
-
-	@RequestMapping("/")
+	@RequestMapping("/list")
 	public String listCustomers(Model theModel) {
 
 		// get Customers from db

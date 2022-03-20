@@ -26,7 +26,7 @@
 		<h3>Customer Relationship Management</h3>
 		<hr>
 
-		<p class="h4 mb-4">Customer</p>
+		<p class="h4 mb-4">Save/Update Customer</p>
 
 		<form action="/CustomerRelationshipManagement/customers/save" method="POST">
 
