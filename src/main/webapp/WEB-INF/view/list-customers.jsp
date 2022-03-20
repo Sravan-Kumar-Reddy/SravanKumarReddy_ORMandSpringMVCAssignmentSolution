@@ -15,19 +15,20 @@
 	integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
 	crossorigin="anonymous">
 
-<title> Customer Relationship Management</title>
+<title>Customer Relationship Management</title>
 </head>
 
 <body>
 
 	<div class="container">
 
-		<h3> Customer Relationship Management</h3>
+		<h3>Customer Relationship Management</h3>
 		<hr>
 
 		<!-- Add a search form -->
 
-		<form action="/CustomerRelationshipManagement/customers/search" class="form-inline">
+		<form action="/CustomerRelationshipManagement/customers/search"
+			class="form-inline">
 
 			<!-- Add a button -->
 			<a href="/CustomerRelationshipManagement/customers/showFormForAdd"
@@ -54,7 +55,8 @@
 							<!-- Add "update" button/link --> <a
 							href="/CustomerRelationshipManagement/customers/showFormForUpdate?id=${tempCustomer.id}"
 							class="btn btn-info btn-sm"> Update </a> <!-- Add "delete" button/link -->
-							<a href="/CustomerRelationshipManagement/customers/delete?id=${tempCustomer.id}"
+							<a
+							href="/CustomerRelationshipManagement/customers/delete?id=${tempCustomer.id}"
 							class="btn btn-danger btn-sm"
 							onclick="if (!(confirm('Are you sure you want to delete this Customer?'))) return false">
 								Delete </a>

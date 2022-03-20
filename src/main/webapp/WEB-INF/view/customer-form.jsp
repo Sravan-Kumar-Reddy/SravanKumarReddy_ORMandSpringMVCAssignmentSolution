@@ -28,7 +28,8 @@
 
 		<p class="h4 mb-4">Add/Update Customer</p>
 
-		<form action="/CustomerRelationshipManagement/customers/save" method="POST">
+		<form action="/CustomerRelationshipManagement/customers/save"
+			method="POST">
 
 			<!-- Add hidden form field to handle update -->
 			<input type="hidden" name="id" value="${Customer.id}" />
@@ -64,7 +65,8 @@
 		</form>
 
 		<hr>
-		<a href="/CustomerRelationshipManagement/customers/list">Back to Customers List</a>
+		<a href="/CustomerRelationshipManagement/customers/list">Back to
+			Customers List</a>
 
 	</div>
 </body>
